@@ -1,5 +1,5 @@
 %%
-%% LaTeX style class for Thesis Review on FI MUNI.
+%% LaTeX style class for Thesis Review for FI MUNI.
 %% Author: Ph4r05
 %% Date: 23.1.2014
 %% 

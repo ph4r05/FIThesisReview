@@ -1,0 +1,94 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper]{fireview} % Specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc)
+
+% \usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for including pictures
+\usepackage{microtype} % Improves typography
+\usepackage[T1]{fontenc} % Required for accented characters
+\usepackage{lmodern}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT MARGINS & GEOMETRY
+%----------------------------------------------------------------------------------------
+\ReviewDefaultGeometry
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+%
+% Define review language here, allowed values: {sk,cs,en}
+%
+\reviewlang{cs}
+
+%
+% Thesis type for review title
+%
+% Allowed statements:
+%	\thesistype{bc}		% for bachelor thesis
+%	\thesistype{mgr}	% for master thesis
+%
+% Or you can use your own title of the review and acronym for 
+% review strings. Example for RNDr. thesis in czech:
+% 	\newreviewsubtitle{Rigorózní práce}
+% 	\thesisacro{RP}
+%
+% Current default value:
+\thesistype{mgr}
+
+%
+% Basic information about thesis and thesis review:
+%
+\def\ThesisStudent{Bernhard Riemann}
+\def\ThesisAdvisor{Johann C. F. Gauss}
+\def\ThesisOponent{Gotthold Eisenstein}
+\def\ThesisTitle{Riemannian geometry}
+
+\def\ReviewDate{23.~1.~2014}
+\def\ReviewAuthor{Johann C. F. Gauss} % Your name
+\def\Role{vedoucí}
+\def\Where{Fakulta informatiky\\Masarykova univerzita} % Your department/institution
+\def\Address{Botanická 68a, 602 00 Brno} % Your institution address
+
+\pdfpkresolution=600
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{thesisreview}
+
+%----------------------------------------------------------------------------------------
+%	<REVIEW CONTENT>
+%----------------------------------------------------------------------------------------
+
+% Use \noindent if you dont like indentation
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper ipsum eget lectus tempus, nec porttitor velit dapibus. Pellentesque condimentum ac libero nec convallis. Curabitur in mi convallis, egestas orci non, lacinia risus. Curabitur feugiat nibh et est scelerisque ornare. Cras bibendum ligula sapien, at suscipit ante tincidunt a. Quisque eu mattis justo, eget condimentum justo. Proin rhoncus faucibus leo, sed auctor augue lacinia a. Nam vestibulum volutpat ipsum, ac porta orci ultrices a. 
+
+Sed bibendum pretium bibendum. Integer iaculis purus nisl, quis consequat massa fermentum nec. Curabitur mollis mauris est, a facilisis risus accumsan id. Mauris urna orci, iaculis eu urna in, hendrerit vulputate felis. Donec diam erat, suscipit ut luctus ac, hendrerit bibendum augue. Nulla semper, nisi at tempus mattis, sapien erat venenatis dui, non cursus nunc justo a erat. Pellentesque sed tempus tortor. Donec congue ante massa, pulvinar eleifend augue accumsan id.
+
+Sed ullamcorper ipsum id mollis placerat. Quisque dictum sodales tellus, at lobortis molestie:
+\vspace{-5pt}
+\begin{itemize}
+ \item Aenean egestas elit non euismod auctor.
+ \item Pellentesque interdum felis rhoncus erat euismod, at suscipit nulla volutpat.
+ \item In eu velit auctor, feugiat lectus posuere, aliquet lectus.
+ \item Vivamus blandit erat a dolor aliquam, quis porta quam tempor.
+ \item Nam in sem sit amet nulla auctor \uv{condimentum} sed sed nunc.
+ \item Nullam ultricies sem sit amet enim vestibulum \uv{euismod}.
+\end{itemize}
+
+\begin{thesisrating}
+Maecenas sit amet pulvinar leo. Cras varius orci diam, vitae molestie lacus porta id. Donec malesuada massa vitae sem rutrum imperdiet \Grade{A}, summa cum laude.
+\end{thesisrating}
+
+%----------------------------------------------------------------------------------------
+%	</REVIEW CONTENT>
+%----------------------------------------------------------------------------------------
+
+\end{thesisreview}
+\end{document}

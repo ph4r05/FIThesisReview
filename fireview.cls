@@ -534,7 +534,7 @@
     {
 	\renewcommand{\arraystretch}{1.5}
 	\hspace{-0.25in}
-	\begin{tabular}{l l}
+	\begin{tabular}{l p{13cm}}
 	\bf \@labelstudent: & \ThesisStudent \\ 		 % [1.5ex] manual line spacing
 	\bf \@labeladvisor: & \ThesisAdvisor \\
 	\bf \@labeloponent: & \ThesisOponent \\
